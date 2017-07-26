@@ -4,3 +4,6 @@ jdk:
   - oraclejdk8
 
 sudo: false
+
+before_script:
+  - sudo echo "hello"
